@@ -1661,7 +1661,7 @@
   "name": "Mohammed Karzaz",
   "title": "Étudiant en ingénierie informatique",
   "role": "Software Developer / IT Engineering Student",
-  "profile": "Étudiant en 5ᵉ année du cycle d’ingénierie informatique à SUPMTI, je suis à la recherche d’une opportunité de stage de fin d’études (PFE) ou d’un premier poste, y compris à distance, dans le domaine du développement logiciel et des systèmes informatiques. Passionné par les nouvelles technologies, je possède de solides compétences en programmation, développement web et gestion de bases de données. Curieux, autonome et doté d’un esprit analytique, je suis motivé à intégrer un environnement professionnel dynamique où je pourrai mettre en pratique mes connaissances, contribuer à des projets concrets et continuer à développer mes compétences techniques et professionnelles.",
+  "profile": "Étudiant en 5ᵉ année du cycle d’ingénierie informatique à SUPMTI, je suis à la recherche d’une opportunité de stage de fin d’études (PFE), y compris à distance, dans le domaine du développement logiciel et des systèmes informatiques. Passionné par les nouvelles technologies, je possède de solides compétences en programmation, développement web et gestion de bases de données. Curieux, autonome et doté d’un esprit analytique, je suis motivé à intégrer un environnement professionnel dynamique où je pourrai mettre en pratique mes connaissances, contribuer à des projets concrets et continuer à développer mes compétences techniques et professionnelles.",
   "education": [
     {
       "period": "2022 – Présent",
@@ -1702,7 +1702,7 @@
       "description": "Développement full-stack d’une plateforme intelligente de recrutement visant à automatiser la présélection des candidatures grâce à l’analyse des CV par intelligence artificielle. Le système extrait les informations des fichiers PDF, évalue la compatibilité des profils avec les offres d’emploi et facilite le travail des recruteurs grâce à un score de pertinence et à des tableaux de bord analytiques.",
       "features": "Analyse et extraction de CV PDF, scoring intelligent des candidatures, classement des profils selon leur pertinence, gestion des utilisateurs et des offres d’emploi, tableaux de bord analytiques, authentification sécurisée et architecture modulaire."
     },
-     {
+    {
       "name": "Système de gestion d’une imprimerie",
       "tech": "Java / SQL / MySQL / JDBC",
       "description": "Conception et développement d’une application de gestion pour une imprimerie, permettant de centraliser et d’organiser les achats, les crédits, les clients et les besoins opérationnels. Le projet repose sur une architecture orientée objet et une base de données relationnelle afin de faciliter le suivi des opérations et d’améliorer la gestion quotidienne.",
@@ -1714,14 +1714,12 @@
       "description": "Développement d’une plateforme web interactive dédiée à la visualisation de l’arbre généalogique familial, permettant d’explorer les liens de parenté et de découvrir les membres de la famille à travers leurs fiches, photos et biographies. Les données familiales sont exploitées à partir de fichiers Excel pour alimenter l’affichage de l’arbre.",
       "features": "Arbre généalogique interactif, visualisation 3D, fiches des membres, photos et biographies, traitement des données Excel, interface responsive et animations fluides."
     },
-    
-   
     {
       "name": "Cryptography Tool — Outil de cryptographie",
       "tech": "Java / Cryptographie / Algorithmique",
       "description": "Développement d’un outil de cryptographie en Java permettant de chiffrer et de déchiffrer des messages à l’aide de plusieurs méthodes cryptographiques. Ce projet met en pratique les concepts fondamentaux de l’algorithmique et de la sécurité des données.",
       "features": "Chiffrement et déchiffrement de messages, prise en charge de plusieurs méthodes cryptographiques, sélection des méthodes de traitement et manipulation sécurisée des données."
-    } 
+    }
   ],
   "skills": {
     "Langages de programmation": [
@@ -1798,7 +1796,7 @@
     "location": "Sidi Yahya-Oujda, Morocco",
     "github": "https://github.com/ZORO12",
     "linkedin": "Mohammed Karzaz",
-    "linkedinUrl": "https://www.linkedin.com/in/mohammed-karzaz-736a80343/?isSelfProfile=true"
+    "linkedinUrl": "https://www.linkedin.com/in/mohammed-karzaz-736a80343/"
   },
   "hobbies": [
     "Arbitrage",
@@ -1822,8 +1820,8 @@
       const explorer = (path, side, body) => `<div class="exp"><div class="bar"><button class="btn" data-act="back" aria-label="Précédent">◀</button><button class="btn" data-act="fwd" aria-label="Suivant">▶</button><input value="Ordinateur › ${esc(path)}" readonly aria-label="Adresse"><button class="btn" data-act="refresh" aria-label="Actualiser">⟳</button><input data-search style="max-width:120px" placeholder="Rechercher" aria-label="Rechercher"></div><div class="cols"><div class="side"><b>Favoris</b><br><a href="#" data-nav="projects">Projets</a><br><a href="#" data-nav="experience">Expérience</a><br><a href="#" data-nav="education">Formation</a><br><b>Ordinateur</b><br><a href="#" data-nav="computer">Disque local (C:)</a></div><div class="main">${body}</div></div></div>`;
 
       const APPS = {
-        welcome: { t: 'Bienvenue', i: '🖥️', w: 500, h: 330, r: () => `<div class="hero"><div class="avatar">MK</div><div><h1>Mohammed Karzaz</h1><p class="role">Software Engineer · Computer Engineering Student</p><p class="muted">🎓 SUPMTI, 5ᵉ année · 4 projets · Recherche de stage PFE · Stage ONEE 2025 </p></div></div><p><b>Stack :</b> Java, JavaScript, React.js, Node.js, Spring Boot, PHP, MySQL</p><p class="cta"><button class="btn pri" data-open="projects">Projets</button> <button class="btn" data-open="cv">CV</button> <button class="btn" data-open="contact">Contact</button> <a class="btn" href="${C.github}" target="_blank" rel="noopener">GitHub</a> <button class="btn" data-simple>Version simple</button></p><p class="muted">Pas envie d’explorer le bureau ? « Version simple » affiche tout sur une seule page.</p>` },
-        about: { t: 'À propos de Mohammed', i: '👤', r: () => `<div class="hero"><div class="avatar">MK</div><div><h1>${D.name}</h1><p class="role">Software Engineer · Computer Engineering Student</p><p class="muted">🎓 SUPMTI, 5ᵉ année · 📍 ${C.location}</p><p class="cta"><button class="btn pri" data-open="projects">View projects</button> <button class="btn" data-open="cv">Resume</button> <button class="btn" data-open="contact">Contact</button> <a class="btn" href="${C.github}" target="_blank" rel="noopener">GitHub</a></p></div></div><div class="lead">${esc(D.profile)}</div><h3>Core stack</h3>${chips(['Java', 'JavaScript', 'React.js', 'Node.js', 'Spring Boot', 'PHP', 'MySQL', 'Git'])}<h3>Disponibilité</h3><p>Stage de fin d’études (PFE)  · Maroc ou à l’étranger · à distance possible</p><h3>Langues</h3>${D.languages.map(l => `<p>🌐 <b>${l.name}</b> — ${l.level}</p>`).join('')}<h3>Loisirs</h3>${chips(D.hobbies)}<h3>Crédits</h3><p class="muted">© 2026 Mohammed Karzaz · Built with HTML, CSS &amp; JavaScript</p>` },
+        welcome: { t: 'Bienvenue', i: '🖥️', w: 500, h: 330, r: () => `<div class="hero"><div class="avatar">MK</div><div><h1>Mohammed Karzaz</h1><p class="role">Software Engineer · Computer Engineering Student</p><p class="muted">🎓 SUPMTI, 5ᵉ année · Stage ONEE 2025 · 4 projets · Recherche de stage PFE</p></div></div><p><b>Stack :</b> Java, JavaScript, React.js, Node.js, Spring Boot, PHP, MySQL</p><p class="cta"><button class="btn pri" data-open="projects">Projets</button> <button class="btn" data-open="cv">CV</button> <button class="btn" data-open="contact">Contact</button> <a class="btn" href="${C.github}" target="_blank" rel="noopener">GitHub</a> <button class="btn" data-simple>Version simple</button></p><p class="muted">Pas envie d’explorer le bureau ? « Version simple » affiche tout sur une seule page.</p>` },
+        about: { t: 'À propos de Mohammed', i: '👤', r: () => `<div class="hero"><div class="avatar">MK</div><div><h1>${D.name}</h1><p class="role">Software Engineer · Computer Engineering Student</p><p class="muted">🎓 SUPMTI, 5ᵉ année · 📍 ${C.location}</p><p class="cta"><button class="btn pri" data-open="projects">View projects</button> <button class="btn" data-open="cv">Resume</button> <button class="btn" data-open="contact">Contact</button> <a class="btn" href="${C.github}" target="_blank" rel="noopener">GitHub</a></p></div></div><div class="lead">${esc(D.profile)}</div><h3>Core stack</h3>${chips(['Java', 'JavaScript', 'React.js', 'Node.js', 'Spring Boot', 'PHP', 'MySQL', 'Git'])}<h3>Disponibilité</h3><p>Stage de fin d’études (PFE) ou premier poste · Maroc ou à l’étranger · à distance possible</p><h3>Langues</h3>${D.languages.map(l => `<p>🌐 <b>${l.name}</b> — ${l.level}</p>`).join('')}<h3>Loisirs</h3>${chips(D.hobbies)}<h3>Crédits</h3><p class="muted">© 2026 Mohammed Karzaz · Built with HTML, CSS &amp; JavaScript</p>` },
         projects: { t: 'Projets', i: '📁', r: () => explorer('Projets', '', `<div class="cards">` + D.projects.map(p => `<article class="card"><h4>📁 ${esc(p.name)}</h4>${p.status ? `<span class="badge">${esc(p.status)}</span>` : ''}${chips(p.tech.split(' / '))}<p>${esc(p.description)}${p.features ? '<br>' + esc(p.features) : ''}</p>${p.role ? `<p><b>Rôle :</b> ${esc(p.role)}</p>` : ''}${p.repo ? `<a class="btn" href="${p.repo}" target="_blank" rel="noopener">Code source</a> ` : ''}${p.demo ? `<a class="btn" href="${p.demo}" target="_blank" rel="noopener">Démo</a>` : ''}${p.name.includes('ce site') ? '<p class="muted"><i>This website — vous êtes dedans.</i></p>' : ''}</article>`).join('') + `<article class="card dashed" data-soon tabindex="0"><h4>📁 Future Projects</h4><p class="muted">Cliquez pour ouvrir</p></article></div>`) },
         experience: { t: 'Expérience', i: '💼', r: () => explorer('Expérience', '', D.experience.map(e => `<h2>📄 ONEE Internship</h2><div class="tl"><b>${esc(e.role)} · ${esc(e.company)}</b><div class="muted">${esc(e.period)}</div>${chips(e.tech)}<h3>Responsabilités</h3>${list(e.tasks)}</div>`).join('')) },
         education: { t: 'Formation', i: '🎓', r: () => explorer('Formation', '', D.education.map(e => `<details open><summary>📄 ${esc(e.school)}</summary><p>${esc(e.period)}<br>${esc(e.degree)}</p></details>`).join('')) },
