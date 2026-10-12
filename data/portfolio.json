@@ -1,0 +1,130 @@
+{
+  "name": "Mohammed Karzaz",
+  "title": "Étudiant en ingénierie informatique",
+  "role": "Software Developer / IT Engineering Student",
+  "profile": "Étudiant en 5ᵉ année du cycle d’ingénierie informatique à SUPMTI, je suis à la recherche d’une opportunité de stage (été ou PFE) ou d’un premier poste, y compris à distance, dans le domaine du développement logiciel et des systèmes informatiques. Passionné par les nouvelles technologies, je possède de solides compétences en programmation, développement web et gestion de bases de données. Curieux, autonome et doté d’un esprit analytique, je suis motivé à intégrer un environnement professionnel dynamique où je pourrai mettre en pratique mes connaissances, contribuer à des projets concrets et continuer à développer mes compétences techniques et professionnelles.",
+  "education": [
+    {
+      "period": "2022 – Présent",
+      "school": "SUPMTI, Oujda",
+      "degree": "Cycle d’Ingénierie Informatique – 4ᵉ année"
+    },
+    {
+      "period": "2019 – 2022",
+      "school": "Groupe Riad, Oujda",
+      "degree": "Baccalauréat Sciences Physiques"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Stagiaire",
+      "company": "Office National de l’Électricité et de l’Eau Potable (ONEE)",
+      "period": "Juillet 2025 – Août 2025",
+      "tech": [
+        "PHP",
+        "JavaScript",
+        "Bases de données"
+      ],
+      "tasks": [
+        "Développement d’applications internes en PHP et JavaScript",
+        "Gestion et manipulation de bases de données",
+        "Analyse des besoins",
+        "Développement de fonctionnalités",
+        "Tests",
+        "Travail collaboratif",
+        "Initiation à la gestion de projets informatiques"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Système de gestion d’une imprimerie en Java",
+      "tech": "Java",
+      "description": "Conception d’une application avec architecture orientée objet.",
+      "features": "Implémentation complète des opérations CRUD."
+    },
+    {
+      "name": "Portfolio personnel (ce site)",
+      "status": "En cours de développement",
+      "tech": "React.js / Tailwind CSS",
+      "description": "Site web présentant mes projets et compétences.",
+      "features": "Intégration d’animations 3D et design moderne."
+    }
+  ],
+  "skills": {
+    "Langages de programmation": [
+      "Java",
+      "Python",
+      "C++",
+      "C",
+      "C#",
+      "JavaScript",
+      "PHP"
+    ],
+    "Développement web": [
+      "HTML",
+      "CSS"
+    ],
+    "Frameworks & bibliothèques": [
+      "React.js",
+      "Angular",
+      "Symfony",
+      "Laravel",
+      "Spring Boot",
+      "JEE"
+    ],
+    "Développement mobile": [
+      "Android SDK",
+      "XML (Android Layouts)",
+      "SQLite"
+    ],
+    "Bases de données": [
+      "MySQL",
+      "Oracle SQL"
+    ],
+    "Outils & environnements": [
+      "Git",
+      "GitHub",
+      "Vite",
+      "Postman",
+      "Visual Studio Code",
+      "Android Studio",
+      "IntelliJ"
+    ],
+    "Méthodologies & concepts": [
+      "Scrum",
+      "Information Security"
+    ]
+  },
+  "leadership": {
+    "role": "Président du Bureau des Étudiants – SUPMTI",
+    "tasks": [
+      "Coordination et supervision d’une équipe pluridisciplinaire de membres du bureau",
+      "Organisation et gestion d’événements étudiants à caractère parascolaire, solidaire, sportif et académique",
+      "Représentation des étudiants auprès de l’administration",
+      "Participation au développement de la vie étudiante"
+    ]
+  },
+  "languages": [
+    {
+      "name": "Arabe",
+      "level": "Langue maternelle"
+    },
+    {
+      "name": "Français",
+      "level": "Courant"
+    },
+    {
+      "name": "Anglais",
+      "level": "Intermédiaire"
+    }
+  ],
+  "contact": {
+    "email": "karzazmohammed87@gmail.com",
+    "phone": "0675241608",
+    "location": "Sidi Yahya-Oujda, Morocco",
+    "github": "https://github.com/ZORO12",
+    "linkedin": "Mohammed Karzaz",
+    "linkedinUrl": "https://www.linkedin.com/in/mohammed-karzaz-736a80343/?isSelfProfile=true"
+  }
+}
